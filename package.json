@@ -47,10 +47,10 @@
   ],
   "dependencies": {
     "async": "^1.3.0",
-    "btq-bitcoind-rpc": "^0.7.2",
-    "btq-bitcore-lib": "^0.14.2",
-	"btq-insight-api": "^0.4.5",
-	"btq-insight-ui": "^0.4.2",
+    "btq-bitcoind-rpc": "^0.7.3",
+    "btq-bitcore-lib": "^0.14.3",
+	"btq-insight-api": "^0.4.6",
+	"btq-insight-ui": "^0.4.3",
     "body-parser": "^1.13.3",
     "colors": "^1.1.2",
     "commander": "^2.8.1",
@@ -71,7 +71,7 @@
   },
   "devDependencies": {
     "benchmark": "1.0.0",
-    "bitcore-p2p": "^1.1.0",
+    "btq-bitcore-p2p": "^1.1.5",
     "chai": "^3.5.0",
     "coveralls": "^2.11.9",
     "istanbul": "^0.4.3",
