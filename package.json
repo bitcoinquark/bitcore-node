@@ -2,7 +2,7 @@
   "name": "btq-bitcore-node",
   "description": "Full node with extended capabilities using Bitcore and BitcoinQuark Core",
   "author": "BitPay <dev@bitpay.com>",
-  "version": "4.0.3",
+  "version": "4.0.4",
   "main": "./index.js",
   "repository": "git://github.com/bitcoinquark/bitcore-node.git",
   "homepage": "https://github.com/bitcoinquark/bitcore-node",
@@ -31,7 +31,7 @@
     }
   ],
   "bin": {
-    "bitcore-node": "./bin/btq-bitcore-node"
+    "btq-bitcore-node": "./bin/btq-bitcore-node"
   },
   "scripts": {
     "test": "mocha -R spec --recursive",
