@@ -9,13 +9,13 @@ var log = index.log;
 log.debug = function() {};
 
 var chai = require('chai');
-var bitcore = require('bitcore-lib');
+var bitcore = require('btq-bitcore-lib');
 var rimraf = require('rimraf');
 var node;
 
 var should = chai.should();
 
-var BitcoinRPC = require('bitcoind-rpc');
+var BitcoinRPC = require('btq-bitcoind-rpc');
 var index = require('..');
 var Transaction = bitcore.Transaction;
 var BitcoreNode = index.Node;

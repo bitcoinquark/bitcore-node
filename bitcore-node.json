@@ -1,0 +1,23 @@
+{
+  "network": "regtest",
+  "port": 3001,
+  "services": [
+    "bitcoind",
+    "btq-insight-api",
+    "btq-insight-ui",
+    "web"
+  ],
+  "servicesConfig": {
+    "bitcoind": {
+      "connect": [
+        {
+          "rpcconnect": "127.0.0.1",
+          "rpcport": 9000,
+          "rpcuser": "user",
+          "rpcpassword": "pass",
+          "zmqpubrawtx": "tcp://127.0.0.1:39333"
+        }
+      ]
+    }
+  }
+}
