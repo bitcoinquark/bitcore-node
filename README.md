@@ -26,8 +26,8 @@ Bitcore includes a Command Line Interface (CLI) for managing, configuring and in
 btq-bitcore-node create -d <bitcoinquark-data-dir> mynode
 cd mynode
 btq-bitcore-node install <service>
-bitcore-node install btq-insight-api
-bitcore-node install btq-insight-ui
+btq-bitcore-node install btq-insight-api
+btq-bitcore-node install btq-insight-ui
 btq-bitcore-node install https://github.com/yourname/helloworld
 ```
 
