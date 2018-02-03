@@ -1,5 +1,5 @@
 {
-  "network": "regtest",
+  "network": "testnet",
   "port": 3001,
   "services": [
     "bitcoind",
@@ -12,10 +12,11 @@
       "connect": [
         {
           "rpcconnect": "127.0.0.1",
-          "rpcport": 9000,
+          "rpcport": 6004,
           "rpcuser": "user",
           "rpcpassword": "pass",
-          "zmqpubrawtx": "tcp://127.0.0.1:39333"
+          "zmqpubrawtx": "tcp://127.0.0.1:29332",
+		  "zmqpubhashblock": "tcp://127.0.0.1:29332"
         }
       ]
     }
